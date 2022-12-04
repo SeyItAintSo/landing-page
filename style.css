@@ -69,11 +69,43 @@ ul {
     display: flex;
     justify-content: space-evenly;
     gap: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 200px;
 }
 
 
 .header,
 .statement {
     background-color: #1F2937;
+}
+
+.info-header {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 50px 0px;
+}
+
+.img-placeholder {
+    width: 200px;
+    height: 200px;
+    border: 3px solid;
+    border-radius: 25px;
+    border-color: #3882f6;
+}
+.subtext {
+    text-align: center;
+    margin: 10px;
+    max-width: 200px;
+}
+
+.small-container {
+    max-width: 200px;
+}
+
+.random-info-imgs {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-top: 50px;
 }
