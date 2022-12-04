@@ -2,3 +2,44 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding: 0;
+    gap: 10px;
+}
+
+.header {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    max-width: 200px;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 150px;
+    background-color: gray;
+}
+
+.statement  {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
