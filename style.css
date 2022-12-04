@@ -1,6 +1,9 @@
 body {
+    font-family: Roboto;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
 
 a {
@@ -17,17 +20,40 @@ ul {
 }
 
 .header {
-    padding: 40px;
+    padding: 40px 0px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+}
+
+.title  {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .hero-container {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     padding: 15px;
-    max-width: 200px;
+    gap: 10px;
+    max-width: 400px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-info-text {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .placeholder {
@@ -40,6 +66,13 @@ ul {
 
 .statement  {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 50px;
+    padding-bottom: 50px;
+}
+
+
+.header,
+.statement {
+    background-color: #1F2937;
 }
