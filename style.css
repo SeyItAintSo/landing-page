@@ -20,10 +20,11 @@ ul {
 }
 
 .header {
-    padding: 40px 0px;
+    padding: 20px 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 150px;
 }
 
 .title  {
