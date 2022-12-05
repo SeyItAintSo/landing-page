@@ -130,8 +130,41 @@ button {
     padding: 200px 300px;
     display: flex;
     flex-direction: column;
+    color: #1F2937;
+    margin-bottom: 150px;
+    gap: 20px;
+
+}
+
+.quote {
+    font-size: 32px;
+    font-weight: 50;
 }
 
 .quote-credit {
     align-self: flex-end;
+}
+
+.call-to-action-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-to-action-container {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 70px 70px;
+    border-radius: 25px;
+    max-width: 1000px;
+    margin-bottom: 150px;
+}
+
+.footer {
+    color: #e5e7eb;
+    background-color: #1F2937;
+    margin-top: auto;
+    text-align: center;
+    padding: 50px 100px;
 }
